@@ -17,7 +17,7 @@ public class UniqueCharTest{
     // String of unique chars
     public void uniqueCharsABCD() {
         //assert
-        assertTrue(uc.isUniqueChar("ABCD"));
+        assertTrue(uc.isUniqueChar("ABCDEFGHIJKLMNOPQRSTUVWXYZ"));
     }
 
     @Test
